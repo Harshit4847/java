@@ -1,0 +1,15 @@
+class Test {
+    public static void main(String[] args) {
+        int a = 10, b = 20, c = 30; // Fixed initialization of c
+        
+        // Swapping values
+        c = a;
+        a = b;
+        b = c;
+
+        // Output the result after swapping
+        System.out.println("Value after swap:");
+        System.out.println("a = " + a);
+        System.out.println("b = " + b);
+    }
+}
