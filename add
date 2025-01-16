@@ -1,0 +1,11 @@
+class test {
+  public static void main(String[] args){
+    
+    int a = 10 , b = 30;
+    int d ;
+    
+    d = a + b;
+    
+    System.out.println("add is"+d);
+  }
+}
