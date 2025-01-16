@@ -1,0 +1,31 @@
+import java.util.Scanner;
+
+class SimpleInterest {
+    public static void main(String[] args) {
+        // Create a scanner object to take user input
+        Scanner scanner = new Scanner(System.in);
+
+        // Input for Principal (P), Rate (R), and Time (T)
+        System.out.print("Enter the principal amount (P): ");
+        double P = scanner.nextDouble();  // Principal amount
+
+        System.out.print("Enter the rate of interest (R): ");
+        double R = scanner.nextDouble();  // Annual interest rate
+
+        System.out.print("Enter the time period (T) in years: ");
+        double T = scanner.nextDouble();  // Time in years
+
+        // Calculate Simple Interest
+        double SI = (P * R * T) / 100;
+
+        // Calculate Total Amount (Principal + Interest)
+        double TotalAmount = P + SI;
+
+        // Output the results
+        System.out.println("Simple Interest = " + SI);
+        System.out.println("Total Amount = " + TotalAmount);
+
+        // Close the scanner
+        scanner.close();
+    }
+}
