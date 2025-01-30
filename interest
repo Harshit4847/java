@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class SimpleInterest {
+class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -8,7 +8,7 @@ class SimpleInterest {
         double P = scanner.nextDouble();
 
         System.out.print("Enter the rate of interest (R): ");
-        double R = scanner.nextDouble();  
+        double R = scanner.nextDouble();  e
 
         System.out.print("Enter the time period (T) in years: ");
         double T = scanner.nextDouble();  
